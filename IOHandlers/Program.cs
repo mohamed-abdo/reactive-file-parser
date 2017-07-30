@@ -19,6 +19,7 @@ namespace SoftIdeas.IOHandlers.Shell
         /// </summary>
         /// Created by  :   Mohamed Abdo, Mohamad.Abdo@gmail.com
         /// Modified on :   2017-07-29
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Application startup!");
