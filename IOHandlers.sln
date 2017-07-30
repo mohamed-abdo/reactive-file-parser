@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftIdeas.IOHandlers.Shell", "IOHandlers\SoftIdeas.IOHandlers.Shell.csproj", "{A0C49D5A-B851-43F9-A926-5757B616BE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftIdeas.IOHandler.Adaptee", "IOHandlerAdapter\SoftIdeas.IOHandler.Adaptee.csproj", "{8EA2D790-2098-4C87-9774-2090D57124E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftIdeas.IOHandler.JSAdapter", "SoftIdeas.JSAdapter\SoftIdeas.IOHandler.JSAdapter.csproj", "{7602C8A7-AFFA-4F75-AC85-0755A7272BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftIdeas.IOHandler.Service.UnitTest", "SoftIdeas.IOHandlerUnitTest\SoftIdeas.IOHandler.Service.UnitTest.csproj", "{829D5705-6464-430F-B978-37CDBEEFC48B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftIdeas.IOHandler.Service", "SoftIdeas.IOHandler.Service\SoftIdeas.IOHandler.Service.csproj", "{4C5A5E05-C917-4779-8F82-40E4E8010636}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOHandler.Adapters", "IOHandler.Adapters", "{E74B3FCC-7FBC-4266-8084-F7D728B603EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOHandler.Services", "IOHandler.Services", "{56E61DC4-9CDC-4E07-BC47-BCECD55B2731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftIdeas.IOHandler.CSSAdapter", "SoftIdeas.IOHandler.CSSAdapter\SoftIdeas.IOHandler.CSSAdapter.csproj", "{15A26D6F-6D40-4AED-9D84-DD4714CA7ACB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0C49D5A-B851-43F9-A926-5757B616BE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C49D5A-B851-43F9-A926-5757B616BE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C49D5A-B851-43F9-A926-5757B616BE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C49D5A-B851-43F9-A926-5757B616BE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA2D790-2098-4C87-9774-2090D57124E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA2D790-2098-4C87-9774-2090D57124E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA2D790-2098-4C87-9774-2090D57124E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA2D790-2098-4C87-9774-2090D57124E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7602C8A7-AFFA-4F75-AC85-0755A7272BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7602C8A7-AFFA-4F75-AC85-0755A7272BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7602C8A7-AFFA-4F75-AC85-0755A7272BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7602C8A7-AFFA-4F75-AC85-0755A7272BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829D5705-6464-430F-B978-37CDBEEFC48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829D5705-6464-430F-B978-37CDBEEFC48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829D5705-6464-430F-B978-37CDBEEFC48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829D5705-6464-430F-B978-37CDBEEFC48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5A5E05-C917-4779-8F82-40E4E8010636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5A5E05-C917-4779-8F82-40E4E8010636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5A5E05-C917-4779-8F82-40E4E8010636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5A5E05-C917-4779-8F82-40E4E8010636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A26D6F-6D40-4AED-9D84-DD4714CA7ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A26D6F-6D40-4AED-9D84-DD4714CA7ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A26D6F-6D40-4AED-9D84-DD4714CA7ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A26D6F-6D40-4AED-9D84-DD4714CA7ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EA2D790-2098-4C87-9774-2090D57124E7} = {56E61DC4-9CDC-4E07-BC47-BCECD55B2731}
+		{7602C8A7-AFFA-4F75-AC85-0755A7272BD0} = {E74B3FCC-7FBC-4266-8084-F7D728B603EC}
+		{829D5705-6464-430F-B978-37CDBEEFC48B} = {56E61DC4-9CDC-4E07-BC47-BCECD55B2731}
+		{4C5A5E05-C917-4779-8F82-40E4E8010636} = {56E61DC4-9CDC-4E07-BC47-BCECD55B2731}
+		{15A26D6F-6D40-4AED-9D84-DD4714CA7ACB} = {E74B3FCC-7FBC-4266-8084-F7D728B603EC}
+	EndGlobalSection
+EndGlobal

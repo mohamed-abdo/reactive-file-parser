@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>SoftIdeas.IOHandler.Adaptee</AssemblyName>
+    <RootNamespace>SoftIdeas.IOHandler.Adaptee</RootNamespace>
+  </PropertyGroup>
+
+</Project>
